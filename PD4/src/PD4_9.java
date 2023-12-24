@@ -2,28 +2,28 @@ import java.util.Scanner;
 
 public class PD4_9 {
     public static void main(String[] args) {
-        Scanner scanNumbers1 = new Scanner(System.in);
-        System.out.println("Sienos ilgis m: ");
-        int ilgis = scanNumbers1.nextInt() * 100;
-        System.out.println(ilgis);
+  Scanner scannner = new Scanner(System.in);
 
-        Scanner scanNumbers2 = new Scanner(System.in);
-        System.out.println("Sienos aukštis m: ");
-        int aukstis = scanNumbers2.nextInt() * 100;
-        System.out.println(aukstis);
+        System.out.println("Iveskite, sienos ilgis m: ");
+        String ilgis = scannner.nextLine();
 
-        Scanner scanNumbers3 = new Scanner(System.in);
-        System.out.println("Plytos kaina Eur: ");
-        int kaina = scanNumbers3.nextInt();
+        System.out.println("Iveskite, sienos aukštis m: ");
+        String aukstis = scannner.nextLine();
+
+        System.out.println("Iveskite, Plytos kaina Eur: ");
+        String kaina = scannner.nextLine();
         System.out.println(kaina);
 
-        double plytosIlgis = 20;
-        double plytosAukstis = 10;
+        int ilgis1 = Integer.parseInt(ilgis);
+        int aukstis1 = Integer.parseInt(aukstis);
+        double kaina1 = Double.valueOf(kaina);
 
-        double kiekis = (ilgis * aukstis) / (plytosIlgis * plytosAukstis);
+        int s = (ilgis1 * aukstis1)*10000;
+        int kiekis = s / (20*10);
+
         System.out.println("Plytų kiekis" + " " + kiekis);
 
-        double kainuos = kiekis * kaina;
+        double kainuos = kiekis * kaina1;
         System.out.println("Plytos kainuos" + " " +kainuos+ " " + "Eur");
 
 
