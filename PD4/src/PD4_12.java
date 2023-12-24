@@ -20,6 +20,6 @@ public class PD4_12 {
 
         int kiekis = zuvuSkaicius + (zuvuPerDiena * zuvuPerDiena);
 
-        System.out.println("Po" + " "+ "dienų akvariume gyvens" +kiekis+ " " + "žuvų.");
+        System.out.println("Po" + " "+ "dienų akvariume gyvens"+ " " +kiekis+ " " + "žuvų.");
     }
 }
