@@ -5,7 +5,6 @@ public class PD4_11 {
             Scanner scanNumbers1 = new Scanner(System.in);
             System.out.println("Koks automobilio greitis? ");
             double greitis = scanNumbers1.nextInt();
-            System.out.println(greitis);
 
             double tunelioIlgis =  264;
             System.out.println(tunelioIlgis + " " + "m.");
