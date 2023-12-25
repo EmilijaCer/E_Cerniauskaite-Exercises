@@ -5,7 +5,6 @@ public class PD4_10 {
         Scanner scanNumbers1 = new Scanner(System.in);
         System.out.println("Puodelių, kuriuos reikia supakuoti, skaičius: ");
         int kiekis = scanNumbers1.nextInt();
-        System.out.println(kiekis);
         int kiekisDezeje = 3;
 
         int deziuKiekis = kiekis / kiekisDezeje;
